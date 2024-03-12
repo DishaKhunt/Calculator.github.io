@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: black !important;
+}
+
+.calc-container {
+    margin-top: 8%;
+}
+
+.calc-container input {
+    text-align: right;
+    font-size: 40px;
+    background: transparent;
+    color: white;
+    border: none;
+}
+
+.calc-container input:focus {
+    outline: none;
+}
+
+.calc-container table button {
+    width: 100%;
+    background: #303030 !important;
+    color: white;
+    font-size: 30px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgb(163, 163, 163);
+}
+
+.calc-container table button sup {
+    background: #303030 !important;
+}
+
+.calc-container table #btn1 {
+    background: goldenrod !important;
+}
+
+@media only screen and (max-width:1024px) {
+    .calc-container {
+        width: 80% !important;
+        margin: auto !important;
+        margin-top: 10% !important;
+    }
+
+    .calc-container table button {
+        font-size: 20px;
+        padding: 15px;
+        border-radius: 10px;
+        
+    }
+}
+
+@media only screen and (max-width:768px) {
+
+    .calc-container {
+        width: 80% !important;
+        margin: auto !important;
+        margin-top: 10% !important;
+    }
+
+    .calc-container table button {
+        font-size: 20px;
+        padding: 10px;
+        border-radius: 20px;
+    }
+
+}
+
+@media only screen and (max-width:553px) {
+
+    .calc-container {
+        width: 80% !important;
+        margin: auto !important;
+        margin-top: 10% !important;
+    }
+
+    .calc-container table button {
+        font-size: 20px;
+        padding:  10px;
+        border-radius: 50%;
+        box-shadow: 0px 0px 10px rgb(78, 77, 77);
+    }
+}
+
+@media only screen and (max-width:320px) {
+
+    .calc-container table button {
+        font-size: 15px;
+        padding: 5px;
+        border-radius: 50%;
+        
+    }
+}
