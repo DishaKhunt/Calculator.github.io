@@ -42,6 +42,7 @@
     .calc-container {
         width: 80% !important;
         margin: auto !important;
+        margin-top: 10% !important;
     }
 
     .calc-container table button {
@@ -57,13 +58,13 @@
     .calc-container {
         width: 80% !important;
         margin: auto !important;
+        margin-top: 10% !important;
     }
 
     .calc-container table button {
         font-size: 20px;
         padding: 10px;
         border-radius: 20px;
-        
     }
 
 }
@@ -73,12 +74,13 @@
     .calc-container {
         width: 80% !important;
         margin: auto !important;
+        margin-top: 10% !important;
     }
 
     .calc-container table button {
         font-size: 20px;
-        padding: 10px;
-        border-radius: 40px;
+        padding:  10px;
+        border-radius: 50%;
         box-shadow: 0px 0px 10px rgb(78, 77, 77);
     }
 }
